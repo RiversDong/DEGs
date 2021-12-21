@@ -1,1 +1,1 @@
-# The-pipeline-of-DEG-identification-based-on-Oliver-s-data
+# The pipeline of DEG identification based on Oliver's data
