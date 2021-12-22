@@ -1,5 +1,9 @@
 # The pipeline of DEG identification based on Oliver's data
 
+## Acknowledgement
+I am very appreciate to Chengchi Fang in Institute of Hydrobiology, Chinese Academy of Sciences for answering my questions about RNA-Seq sequencing technology.
+
+
 ## Information of softwares in my pipeline
 <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-top-alt:solid windowtext .5pt;
  mso-border-bottom-alt:solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:
@@ -147,8 +151,6 @@ diff_gonad_w1118: The DEGs of all genes in our analysis for tissue gonad of popu
 foldchange_gonad_orgR: The fold change of all genes in our analysis for tissue gonad of population orgR; <br/>
 diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of population orgR; <br/>
 
-## Acknowledgement <br/>
-I am very appreciate to Chengchi Fang in Institute of Hydrobiology, Chinese Academy of Sciences for answering my questions about RNA-Seq sequencing technology.
 
 
 
