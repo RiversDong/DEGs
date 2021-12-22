@@ -19,6 +19,13 @@ The fifth parameter "/home/chuand/new_gene/data/dm_cleanfastq" is a path to stor
 The sixth parameter "/home/chuand/new_gene/data/mapping" is a path to store the mapping data. <br/>
 The seventh parameter "/home/chuand/new_gene/data/bam" is a path to store the mapping data with bam format <br/>
 The eighth path "/home/chuand/new_gene/data/mergebam" is a path to store the merged runs with one GSM ID. <br/>
-The ninth parameter "/home/chuand/new_gene/data/summary" is a file to store the read count.
+The ninth parameter "/home/chuand/new_gene/data/summary" is a file to store the read count. <br/>
+
+## The output of the script
+foldchange_gonad_w1118: The fold change of all genes in our analysis for tissue gonad of population w1118; <br/>
+diff_gonad_w1118: The DEGs of all genes in our analysis for tissue gonad of population w1118; <br/>
+foldchange_gonad_orgR: The fold change of all genes in our analysis for tissue gonad of population orgR; <br/>
+diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of population orgR; <br/>
+
 
 
