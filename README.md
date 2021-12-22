@@ -6,6 +6,7 @@ python 1run_download.py /home/chuand/new_gene/data/dm_SraRunTable.txt /home/chua
 ``` 
 <br />
 The first parameter /home/chuand/new_gene/data/dm_SraRunTable.txt is the metadata that downloaded by SRA Run selector. The second parameter is the path that the raw will be stored. <br />
+
 ## The identification of DEGs
 Identification the sex-biased genes according to the parameter provided by the users <br />
 ```
