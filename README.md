@@ -1,8 +1,3 @@
-<style>
-body {
-text-align: justify}
-</style>
-
 # The pipeline of DEG identification based on Oliver's data
 
 ## Acknowledgement
@@ -140,13 +135,20 @@ Identification the sex-biased genes according to the parameters provided by the 
 ```
 nohup python3 deg.py "Drosophila melanogaster" gonad /home/chuand/new_gene/data/dm_sra /home/chuand/new_gene/data/dm_fastq /home/chuand/new_gene/data/dm_cleanfastq /home/chuand/new_gene/data/mapping /home/chuand/new_gene/data/bam /home/chuand/new_gene/data/mergebam  /home/chuand/new_gene/result/summary &
 ```
-The first parameter "Drosophila melanogaster" is the species that we want to analysis, the script will retrieve information from the metadata (For example /home/chuand/new_gene/data/dm_SraRunTable.txt) that is downloaded from NCBI. The second parameter "gonad" is the focal tissue, in which the DEGs will be analyzed. the script will retrieve information from the metadata (For example /home/chuand/new_gene/data/dm_SraRunTable.txt) that is downloaded from NCBI. The third parameter "/home/chuand/new_gene/data/dm_sra" is the path of raw data. The fourth parameter "/home/chuand/new_gene/data/dm_fastq" is a path to store the data in fastq format. The fifth parameter "/home/chuand/new_gene/data/dm_cleanfastq" is a path to store the clean data. The sixth parameter "/home/chuand/new_gene/data/mapping" is a path to store the mapping data. The seventh parameter "/home/chuand/new_gene/data/bam" is a path to store the mapping data with bam format. The eighth path "/home/chuand/new_gene/data/mergebam" is a path to store the merged runs with one GSM ID. The ninth parameter "/home/chuand/new_gene/data/summary" is a file to store the read count.
+* The first parameter "Drosophila melanogaster" is the species that we want to analysis, the script will retrieve information from the metadata (For example /home/chuand/new_gene/data/dm_SraRunTable.txt) that is downloaded from NCBI. 
+* The second parameter "gonad" is the focal tissue, in which the DEGs will be analyzed. the script will retrieve information from the metadata (For example /home/chuand/new_gene/data/dm_SraRunTable.txt) that is downloaded from NCBI. 
+* The third parameter "/home/chuand/new_gene/data/dm_sra" is the path of raw data. 
+* The fourth parameter "/home/chuand/new_gene/data/dm_fastq" is a path to store the data in fastq format. 
+* The fifth parameter "/home/chuand/new_gene/data/dm_cleanfastq" is a path to store the clean data. 
+* The sixth parameter "/home/chuand/new_gene/data/mapping" is a path to store the mapping data. 
+* The seventh parameter "/home/chuand/new_gene/data/bam" is a path to store the mapping data with bam format. 
+* The eighth path "/home/chuand/new_gene/data/mergebam" is a path to store the merged runs with one GSM ID. The ninth parameter "/home/chuand/new_gene/data/summary" is a file to store the read count.
 
 ## The output of the script
-foldchange_gonad_w1118: The fold change of all genes in our analysis for tissue gonad of population w1118; <br/>
-diff_gonad_w1118: The DEGs of all genes in our analysis for tissue gonad of population w1118; <br/>
-foldchange_gonad_orgR: The fold change of all genes in our analysis for tissue gonad of population orgR; <br/>
-diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of population orgR; <br/>
+* foldchange_gonad_w1118: The fold change of all genes in our analysis for tissue gonad of population w1118; 
+* diff_gonad_w1118: The DEGs of all genes in our analysis for tissue gonad of population w1118; <br/>
+* foldchange_gonad_orgR: The fold change of all genes in our analysis for tissue gonad of population orgR; <br/>
+* diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of population orgR; <br/>
 
 ## Fold change correlation of sex-biased genes based on testis and ovary
 Figure a is my pipeline illustration for data analysis. b is sex-biased genes between w1118 and orgR. c is male-biased genes between w1118 and orgR. d is female-biased genes between w1118 and orgR. e, f and g are the correlation analysis for the overlapping parts of c, d and d, respectively. All the R values greater than 0.9 showing that the reliability of the sex-biased genes.<br/><br/>
