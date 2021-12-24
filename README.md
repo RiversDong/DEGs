@@ -153,6 +153,7 @@ diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of popul
 
 ## Fold change correlation of sex-biased genes based on testis and ovary
  ![img](https://github.com/RiversDong/DEGs/blob/main/sexBiased.jpg = 200x)
+ <img src="https://github.com/RiversDong/DEGs/blob/main/sexBiased.jpg" width=50% height=50%>
 
 
 
