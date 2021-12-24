@@ -1,3 +1,8 @@
+<style>
+body {
+text-align: justify}
+</style>
+
 # The pipeline of DEG identification based on Oliver's data
 
 ## Acknowledgement
