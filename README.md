@@ -152,7 +152,7 @@ foldchange_gonad_orgR: The fold change of all genes in our analysis for tissue g
 diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of population orgR; <br/>
 
 ## Fold change correlation of sex-biased genes based on testis and ovary
- ![img](https://github.com/RiversDong/DEGs/blob/main/sexBiased.jpg | width=100)
+ ![img](https://github.com/RiversDong/DEGs/blob/main/sexBiased.jpg = 200x)
 
 
 
