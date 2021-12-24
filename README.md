@@ -152,7 +152,7 @@ foldchange_gonad_orgR: The fold change of all genes in our analysis for tissue g
 diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of population orgR; <br/>
 
 ## Fold change correlation of sex-biased genes based on testis and ovary
-Figure a is my pipeline illustration for data analysis. b is sex-biased genes between w1118 and orgR. c is male-biased genes between w1118 and orgR. d is female-biased genes between w1118 and orgR. e, f and g are the correlation analysis for the overlapping parts of c, d and d, respectively. All the R values greater than 0.9 showing that the reliability of the sex-biased genes.<br/>
+Figure a is my pipeline illustration for data analysis. b is sex-biased genes between w1118 and orgR. c is male-biased genes between w1118 and orgR. d is female-biased genes between w1118 and orgR. e, f and g are the correlation analysis for the overlapping parts of c, d and d, respectively. All the R values greater than 0.9 showing that the reliability of the sex-biased genes.<br/><br/>
  <img src="https://github.com/RiversDong/DEGs/blob/main/sexBiased.jpg" width=80% align="center">
 
 
