@@ -130,7 +130,7 @@ python expression.py expression.ctl
 python expression.py expression.ctl --download
 ```
 ### 1.2 How to prepare the configuration file
-All the data will be stored in the path specified by OUT parameter, for example fastq data were stored in "/home/chuand/new_gene/data/dm_gonad/fastq", and the other data follow the same rules for storing.
+All the data will be stored in the path specified by OUT parameter, for example fastq data were stored in "/home/chuand/new_gene/data/dm_gonad/fastq", and the other data follow the same rules for storing. The syntax of the configuration file follows the python syntax.
 ```
 gtf = "/home/chuand/new_gene/data/BDGP6.22.97.gtf"
 sra_run = "/home/chuand/new_gene/data/dm_SraRunTable.txt"
