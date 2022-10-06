@@ -1,8 +1,7 @@
 # The pipeline of DEG identification based on Oliver's data
 
 ## Acknowledgement
-I am very appreciate to Chengchi Fang in Institute of Hydrobiology, Chinese Academy of Sciences for answering my questions about RNA-Seq sequencing technology.
-
+I am very appreciate to Chengchi Fang (Chinese Academy of Sciences) and Jianhai Chen (Sichuan University) for answering my questions and the friendly discussion about RNA-Seq sequencing technology.
 
 ## Information of softwares in my pipeline
 <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-top-alt:solid windowtext .5pt;
