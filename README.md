@@ -129,6 +129,25 @@ Calculate the TPM using the wrapped script expression.py and the control file ex
 python expression.py expression.ctl
 python expression.py expression.ctl --download
 ```
+### 1.2 How to prepare the configuration file
+All the data will be stored in the path specified by OUT parameter, for example fastq data were stored in "/home/chuand/new_gene/data/dm_gonad/fastq", and the other data follow the same rules for storing.
+```
+gtf = "/home/chuand/new_gene/data/BDGP6.22.97.gtf"
+sra_run = "/home/chuand/new_gene/data/dm_SraRunTable.txt"
+reference="/home/chuand/new_gene/data/ensembl_97/genome"
+species="Drosophila melanogaster"
+tissue = "gonad"
+sra = "/home/chuand/new_gene/data/dm_sra"
+fastq = "fastq"
+clean_fastq ="clean_fastq"
+mapping = "mapping"
+bam = "bam"
+merge_bam = "merge_bam"
+OUT="/home/chuand/new_gene/data/dm_gonad"
+countsummary="summary"
+tpm_file = "/home/chuand/new_gene/data/dm_gonad/gonad_tpm"
+```
+
 
 
 ## The download of raw data
