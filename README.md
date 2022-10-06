@@ -1,4 +1,4 @@
-# The pipeline of TPM calculation and DEG identification based on Oliver's data
+# The pipeline of TPM calculation and DEG identification based on GSE99574
 
 ## Acknowledgement
 I am very appreciate to Chengchi Fang (Chinese Academy of Sciences) and Jianhai Chen (Sichuan University) for answering my questions and the friendly discussion about RNA-Seq sequencing technology.
