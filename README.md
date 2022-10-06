@@ -122,6 +122,15 @@ I am very appreciate to Chengchi Fang (Chinese Academy of Sciences) and Jianhai 
  </tr>
 </tbody></table>
 
+## TPM calculation
+Calculate the TPM using the wrapped script expression.py and the control file expression.ctl. All the needed parameters are provided in expression.ctl. If users provide “--download”, the raw data will be automatic download according to the configuration file
+### Usage
+```
+python expression.py expression.ctl
+python expression.py expression.ctl --download
+```
+
+
 ## The download of raw data
 Download the metadata about _D. melanogaster_ using SRA Run selector of NCBI. Than run the python script 1run_download.py. <br />
 ```
