@@ -122,9 +122,9 @@ I am very appreciate to Chengchi Fang (Chinese Academy of Sciences) and Jianhai 
  </tr>
 </tbody></table>
 
-## TPM calculation
+## 1. TPM calculation
 Calculate the TPM using the wrapped script expression.py and the control file expression.ctl. All the needed parameters are provided in expression.ctl. If users provide “--download”, the raw data will be automatic download according to the configuration file
-### Usage
+### 1.1 Usage
 ```
 python expression.py expression.ctl
 python expression.py expression.ctl --download
