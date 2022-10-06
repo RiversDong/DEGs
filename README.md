@@ -148,17 +148,16 @@ countsummary="summary"
 tpm_file = "/home/chuand/new_gene/data/dm_gonad/gonad_tpm"
 ```
 
+## 2. The identification of DEGs
 
-
-## The download of raw data
+### 2.1 The download of raw data
 Download the metadata about _D. melanogaster_ using SRA Run selector of NCBI. Than run the python script 1run_download.py. <br />
 ```
 python 1run_download.py /home/chuand/new_gene/data/dm_SraRunTable.txt /home/chuand/new_gene/data/dm_sra
 ``` 
 The first parameter /home/chuand/new_gene/data/dm_SraRunTable.txt is the metadata that downloaded by SRA Run selector. The second parameter is the path that the raw will be stored. <br />
 
-## The identification of DEGs
-Identification the sex-biased genes according to the parameters provided by the users <br />
+### 2.2 Identification the sex-biased genes according to the parameters provided by the users <br />
 ```
 nohup python3 deg.py "Drosophila melanogaster" gonad /home/chuand/new_gene/data/dm_sra /home/chuand/new_gene/data/dm_fastq /home/chuand/new_gene/data/dm_cleanfastq /home/chuand/new_gene/data/mapping /home/chuand/new_gene/data/bam /home/chuand/new_gene/data/mergebam  /home/chuand/new_gene/result/summary &
 ```
@@ -171,13 +170,13 @@ nohup python3 deg.py "Drosophila melanogaster" gonad /home/chuand/new_gene/data/
 * The seventh parameter "/home/chuand/new_gene/data/bam" is a path to store the mapping data with bam format. 
 * The eighth path "/home/chuand/new_gene/data/mergebam" is a path to store the merged runs with one GSM ID. The ninth parameter "/home/chuand/new_gene/data/summary" is a file to store the read count.
 
-## The output of the script
+### 2.3 The output of the script
 * foldchange_gonad_w1118: The fold change of all genes in our analysis for tissue gonad of population w1118; 
 * diff_gonad_w1118: The DEGs of all genes in our analysis for tissue gonad of population w1118; <br/>
 * foldchange_gonad_orgR: The fold change of all genes in our analysis for tissue gonad of population orgR; <br/>
 * diff_gonad_orgR: The DEGs of all genes in our analysis for tissue gonad of population orgR; <br/>
 
-## Fold change correlation of sex-biased genes based on testis and ovary
+### 2.4 Fold change correlation of sex-biased genes based on testis and ovary
 Figure a is my pipeline illustration for data analysis. b is sex-biased genes between w1118 and orgR. c is male-biased genes between w1118 and orgR. d is female-biased genes between w1118 and orgR. e, f and g are the correlation analysis for the overlapping parts of c, d and d, respectively. All the R values greater than 0.9 showing that the reliability of the sex-biased genes.<br/><br/>
  <img src="https://github.com/RiversDong/DEGs/blob/main/sexBiased.jpg" width=80% align="center">
 
